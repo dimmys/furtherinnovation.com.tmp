@@ -8,22 +8,41 @@
     font-weight: normal;
     font-style: normal;
 }
-BODY {
+html {
 	margin: 0;
 	padding: 0;
+	width: 100%;
+    height: 100%;
 }
-TABLE{
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+    height: 100%;
+}
+table{
     border: 0px solid #000;
     width: 100%;
     height: 100%;
     font: 1.5em '1942report1942report', Arial, sans-serif;
 	letter-spacing: 0;
 }
-TD{
+td{
     border: 0px solid #000;
 }
-A{
+div.MainLogo{
+	font-size: 2em;
+}
+a{
     color: #000;
+}
+a.Menu{
+    color: grey;
+	text-decoration: underline;
+}
+a.Menu:hover{
+    color: red;
+	text-decoration: underline;
 }
 a:hover{
     color: red;
