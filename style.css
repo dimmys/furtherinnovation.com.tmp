@@ -8,11 +8,16 @@
     font-weight: normal;
     font-style: normal;
 }
+BODY {
+	margin: 0;
+	padding: 0;
+}
 TABLE{
     border: 0px solid #000;
     width: 100%;
     height: 100%;
-    font: 1.5em '1942report1942report', Arial, sans-serif;letter-spacing: 0;
+    font: 1.5em '1942report1942report', Arial, sans-serif;
+	letter-spacing: 0;
 }
 TD{
     border: 0px solid #000;
@@ -20,30 +25,12 @@ TD{
 A{
     color: #000;
 }
-/*
-BODY {
-    width: 100%;
-    height: 100%;
-    margin: 0;      bb
-    padding: 0;
-    background-color: #fff;
+a:hover{
+    color: red;
 }
-BODY DIV.Main {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    display: table-cell;
-    color: #003767;
-    font-size: 1.3em;
-    font-weight: normal;
-    font-family: 'Museo500' Arial Sans-Serif;
+a.facebook:hover{
+    color: #3b5998;
 }
-BODY DIV.Main DIV.Message {
-    margin: auto;
-    width: 800px;
-    height: 500px;
-    background-color: #ECECEC;
-    border: none;
-    vertical-align: middle;
+a.linkedin:hover{
+    color: #0073B2;
 }
-*/
