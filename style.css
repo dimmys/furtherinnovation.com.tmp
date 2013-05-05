@@ -1,0 +1,49 @@
+@font-face {
+    font-family: '1942report1942report';
+    src: url('fonts/1942 Report/1942-webfont.eot');
+    src: url('fonts/1942 Report/1942-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/1942 Report/1942-webfont.woff') format('woff'),
+    url('fonts/1942 Report/1942-webfont.ttf') format('truetype'),
+    url('fonts/1942 Report/1942-webfont.svg#1942report1942report') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+TABLE{
+    border: 0px solid #000;
+    width: 100%;
+    height: 100%;
+    font: 1.5em '1942report1942report', Arial, sans-serif;letter-spacing: 0;
+}
+TD{
+    border: 0px solid #000;
+}
+A{
+    color: #000;
+}
+/*
+BODY {
+    width: 100%;
+    height: 100%;
+    margin: 0;      bb
+    padding: 0;
+    background-color: #fff;
+}
+BODY DIV.Main {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: table-cell;
+    color: #003767;
+    font-size: 1.3em;
+    font-weight: normal;
+    font-family: 'Museo500' Arial Sans-Serif;
+}
+BODY DIV.Main DIV.Message {
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background-color: #ECECEC;
+    border: none;
+    vertical-align: middle;
+}
+*/
